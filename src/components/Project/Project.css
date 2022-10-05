@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 55% 45%;
+    margin: 3rem 3rem;
 }
 
 .project-image {

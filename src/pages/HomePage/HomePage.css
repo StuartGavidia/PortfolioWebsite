@@ -1,10 +1,12 @@
 .home {
-    height: 100rem;
+    height: 150rem;
     width: 100%;
 }
 
 .projects {
-    height: 60rem;
+    height: 90rem;
     width: 100%;
     background-color: #f9e5d8;
+    display: flex; 
+    flex-flow: row wrap;
 }
