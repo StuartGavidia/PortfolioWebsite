@@ -1,0 +1,28 @@
+.info {
+    height: 55rem;
+}
+
+.info-imagecontainer {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-imagecontainer img {
+    height: 70%;
+    width: 26%;
+    border-radius: 50%
+}
+
+.info-bio {
+    height: 20rem;
+    text-align: center;
+}
+
+.info-bio p{
+    height: 15rem;
+    width: 50%;
+    font-size: 2rem;
+    margin: 1.5rem auto;
+}
