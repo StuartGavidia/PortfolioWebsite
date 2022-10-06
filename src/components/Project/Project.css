@@ -13,3 +13,16 @@
     height: 100%;
     width: 100%;
 }
+
+.project-description {
+    padding: 0.8rem;
+    background-color: white;
+}
+
+.project-date {
+    font-weight: bold;
+}
+
+.project-technologies {
+    font-style: italic;
+}

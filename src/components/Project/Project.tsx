@@ -8,10 +8,10 @@ const Project = (props:projectInfo) => {
             <div>
                 <img src={`../../assets/images/${props.img_link}`} className="project-image" alt="bird"/>
             </div>
-            <div>
+            <div className="project-description">
                 <h1>{props.info}</h1>
-                <p>{props.date}</p>
-                <p>{props.technologies}</p>
+                <p className="project-date">{props.date}</p>
+                <p className="project-technologies">{props.technologies}</p>
                 <p>{props.quickBio}</p>
             </div>
         </div>
