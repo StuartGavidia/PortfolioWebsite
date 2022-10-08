@@ -21,6 +21,7 @@ const HomePage = () => {
                         quickBio={proj.quickBio}
                         img_link={proj.img_link}
                         info={proj.info}
+                        link={proj.link}
                         /></Link>
                     })}
                 </div>

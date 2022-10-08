@@ -4,6 +4,7 @@ export interface projectInfo {
     technologies: string,
     quickBio: string,
     img_link: string,
+    link: string,
     info: {
         description1: string,
         description2?: string,

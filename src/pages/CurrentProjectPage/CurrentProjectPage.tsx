@@ -30,7 +30,10 @@ const CurrentProjectPage = () => {
                 <h1>{wholeProject.title}</h1>
                 <img src={`../../assets/images/${wholeProject.img_link}`} alt={wholeProject.title}/>
             </div>
-            <div>
+            <div className="currentproject-buttoncontainer">
+                <a href={wholeProject.link} target="_blank" rel="noreferrer"><h1>Open Application</h1></a>
+            </div>
+            <div className="currentproject-description">
                 <p>{wholeProject.info.description1}</p>
                 <p>{wholeProject.info.description2}</p>
                 <p>{wholeProject.info.description3}</p>
