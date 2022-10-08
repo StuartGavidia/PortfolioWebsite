@@ -1,13 +1,13 @@
 .project {
     border: 1px solid black;
-    height: 28rem;
-    width: 23rem;
+    height: 40rem;
+    width: 35rem;
     border-radius: 1%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 55% 45%;
     margin: 3rem 3rem;
-    font-size: 0.7rem
+    font-size: 1.2rem
 }
 
 .project-image {
