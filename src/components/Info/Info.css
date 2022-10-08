@@ -1,5 +1,5 @@
 .info {
-    height: 55rem;
+    height: 50rem;
 }
 
 .info-imagecontainer {
@@ -21,8 +21,8 @@
 }
 
 .info-bio p{
-    height: 17rem;
+    height: 12rem;
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1.5rem auto;
 }

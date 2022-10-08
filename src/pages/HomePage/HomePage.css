@@ -1,10 +1,10 @@
 .home {
-    height: 185rem;
+    height: 170rem;
     width: 100%;
 }
 
 .projects {
-    height: 130rem;
+    height: 120rem;
     width: 100%;
     background-color: #f9e5d8;
     padding-top: 2rem;
@@ -15,10 +15,9 @@
     width: 20%;
     height: 4rem;
     font-size: 3rem;
-    background-color: black;
     text-align: center;
     padding-top: 1rem;
-    color: white;
+    color: black;
 }
 
 .projects-list {
