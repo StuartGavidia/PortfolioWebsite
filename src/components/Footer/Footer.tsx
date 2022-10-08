@@ -4,7 +4,16 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-            <p>Footer</p>
+            <div className="left">
+                <p>Stuart Gavidia</p>
+                <p>Pacific Lutheran University</p>
+                <p>Personal Portfolio</p>
+            </div>
+            <div className="right">
+                <p>Contact</p>
+                <p>gavidisa@plu.edu</p>
+                <p>253 507 0953</p>
+            </div>
         </div>
     )
 }
