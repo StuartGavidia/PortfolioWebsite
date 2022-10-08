@@ -4,21 +4,26 @@ import Project from '../../components/Project/Project'
 import Info from '../../components/Info/Info'
 import { projectInfo } from '../../interfaces'
 import { projects } from '../../data'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
     return (
         <div className="home">
             <Info />
             <div className="projects">
-                {projects.map((proj:projectInfo) => {
-                    return <Project 
-                    info={proj.info} 
-                    date={proj.date} 
-                    technologies={proj.technologies} 
-                    quickBio={proj.quickBio}
-                    img_link={proj.img_link}
-                    />
-                })}
+                <h2>Projects</h2>
+                <div className="projects-list">
+                    {projects.map((proj:projectInfo) => {
+                        return <Link to={`home/${proj.title.replace(/ /g, '_')}`} className="link"><Project 
+                        title={proj.title} 
+                        date={proj.date} 
+                        technologies={proj.technologies} 
+                        quickBio={proj.quickBio}
+                        img_link={proj.img_link}
+                        info={proj.info}
+                        /></Link>
+                    })}
+                </div>
             </div>
         </div>
     )

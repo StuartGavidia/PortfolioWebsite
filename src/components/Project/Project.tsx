@@ -9,7 +9,7 @@ const Project = (props:projectInfo) => {
                 <img src={`../../assets/images/${props.img_link}`} className="project-image" alt="bird"/>
             </div>
             <div className="project-description">
-                <h1>{props.info}</h1>
+                <h1>{props.title}</h1>
                 <p className="project-date">{props.date}</p>
                 <p className="project-technologies">{props.technologies}</p>
                 <p>{props.quickBio}</p>

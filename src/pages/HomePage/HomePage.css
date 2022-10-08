@@ -1,12 +1,32 @@
 .home {
-    height: 150rem;
+    height: 185rem;
     width: 100%;
 }
 
 .projects {
-    height: 90rem;
+    height: 130rem;
     width: 100%;
     background-color: #f9e5d8;
+    padding-top: 2rem;
+}
+
+.projects h2 {
+    margin: 0 auto;
+    width: 20%;
+    height: 4rem;
+    font-size: 3rem;
+    background-color: black;
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+}
+
+.projects-list {
     display: flex; 
     flex-flow: row wrap;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }

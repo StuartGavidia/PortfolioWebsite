@@ -12,7 +12,7 @@ const Info = () => {
                 <p>
                     Hey! I'm Stuart and I am a Computer Science Major (BS) at Pacific Lutheran University.
                     Welcome to my Portfolio where I outline projects I have created throughout my academic career. Feel
-                    free to contact me through my socials linked on my contact page!
+                    free to contact me through my socials at the bottom!
                 </p>
                 <hr style={{width: "50%"}}/>
             </div>
