@@ -2,6 +2,7 @@ import React from 'react'
 import './HomePage.css'
 import Project from '../../components/Project/Project'
 import Info from '../../components/Info/Info'
+import Contact from '../../components/Contact/Contact'
 import { projectInfo } from '../../interfaces'
 import { projects } from '../../data'
 import { Link } from 'react-router-dom'
@@ -12,7 +13,7 @@ const HomePage = () => {
             <Info />
             <div className="projects">
                 <h2>Projects</h2>
-                <div className="projects-list">
+                <div className="projects-list" id="proj">
                     {projects.map((proj:projectInfo) => {
                         return <Link to={`home/${proj.title.replace(/ /g, '_')}`} className="link"><Project 
                         title={proj.title} 
@@ -26,6 +27,7 @@ const HomePage = () => {
                     })}
                 </div>
             </div>
+            <Contact />
         </div>
     )
 }

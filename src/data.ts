@@ -53,7 +53,7 @@ export const projects:projectInfo[] = [
         img_link: "programmingpartyweb.png",
         link: "https://github.com/PLU-Programming-Party/website",
         info: {
-            description1: "Currently I am working alongside other CS majors to build the official programming party(club) website. We want to display all the projects students have made in the past, and encourage others to join programming party!"
+            description1: "Currently I am working alongside other CS majors to build the official programming party(club) website. We want to display all the projects students have made in the past, and encourage others to join programming party!`"
         }
     }
 ]

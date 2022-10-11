@@ -9,8 +9,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-do
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
@@ -22,8 +22,8 @@ function App() {
             <CurrentProjectPage />
           </Route>
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

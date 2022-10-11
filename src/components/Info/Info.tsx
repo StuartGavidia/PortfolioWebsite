@@ -5,7 +5,7 @@ const Info = () => {
     return (
         <div className="info">
             <div className="info-imagecontainer">
-                <img src="../../assets/images/bird.jpeg" alt="Me"/>
+                <img src="../../assets/images/professionalprofilepic.png" alt="Me"/>
             </div>
             <div className="info-bio">
                 <hr style={{width: "50%"}}/>

@@ -1,7 +1,7 @@
 .project {
     border: 1px solid black;
-    height: 40rem;
-    width: 35rem;
+    width: 39rem;
+    height: 35rem;
     border-radius: 1%;
     display: grid;
     grid-template-columns: 100%;
@@ -9,6 +9,8 @@
     margin: 3rem 3rem;
     font-size: 1.2rem
 }
+
+/* 40 rem 35 rem */
 
 .project-image {
     height: 100%;
