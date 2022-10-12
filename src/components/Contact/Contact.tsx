@@ -4,6 +4,9 @@ import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
 
+import "semantic-ui-css/semantic.min.css";
+//overrides html selectors . . . use !important in my css to override html selector
+
 const Contact = () => {
 
     const SERVICE_ID:string = process.env.REACT_APP_EMAILJS_SERVICE_ID || ""
