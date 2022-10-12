@@ -5,11 +5,15 @@ import { NavLink } from 'react-router-dom'
 const Header = () => {
 
     function scrollToProjects(){
-        document.getElementById("proj")?.scrollIntoView();
+        setTimeout(() => {
+            document.getElementById("proj")?.scrollIntoView();
+        }, 400)
     }
 
     function scrollToContact(){
-        document.getElementById("contact")?.scrollIntoView();
+        setTimeout(() => {
+            document.getElementById("contact")?.scrollIntoView();
+        }, 400)
     }
 
     return (
