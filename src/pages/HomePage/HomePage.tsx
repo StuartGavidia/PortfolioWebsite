@@ -28,11 +28,11 @@ const HomePage = () => {
                 </div>
             </div>
             <Contact />
-            <div className="resume-container">
+            {/* <div className="resume-container">
                 <div className="resume">
-                    <a href="https://docs.google.com/document/d/1WZ0h2VGNX2u1YPflv-dlHDbm2AgGBtFl7klTnJT8yho/edit?usp=sharing" target="_blank" rel="noreferrer"><h1>Resume</h1></a>
+                    <a href="" target="_blank" rel="noreferrer"><h1>Resume</h1></a>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
