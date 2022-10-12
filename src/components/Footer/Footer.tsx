@@ -10,9 +10,9 @@ const Footer = () => {
                 <p>Personal Portfolio</p>
             </div>
             <div className="right">
-                <p>Contact</p>
                 <p>gavidisa@plu.edu</p>
                 <p>253 507 0953</p>
+                <p>linkedin.com/in/StuartGavidia</p>
             </div>
         </div>
     )
