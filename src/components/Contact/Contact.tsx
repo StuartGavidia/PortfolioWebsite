@@ -62,7 +62,7 @@ const Contact = () => {
                 placeholder="Message…"
                 required
                 />
-                <Button type="submit" color="green">Submit</Button>
+                <Button type="submit" color="brown">Submit</Button>
             </Form>
         </div>
     )

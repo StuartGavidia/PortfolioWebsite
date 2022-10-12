@@ -1,23 +1,22 @@
 @media only screen and (max-width: 480px){
   html {
     font-size: 6px;
+    scroll-behavior: smooth;
   }
 }
 
 @media only screen and (min-width: 480px ) and (max-width: 1080px){
   html {
     font-size: 8px;
+    scroll-behavior: smooth;
   }
 }
 
 @media only screen and (min-width: 1080px){
   html {
     font-size: 16px;
+    scroll-behavior: smooth;
   }
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
