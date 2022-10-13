@@ -7,13 +7,13 @@ const Header = () => {
     function scrollToProjects(){
         setTimeout(() => {
             document.getElementById("proj")?.scrollIntoView();
-        }, 400)
+        }, 300)
     }
 
     function scrollToContact(){
         setTimeout(() => {
             document.getElementById("contact")?.scrollIntoView();
-        }, 400)
+        }, 300)
     }
 
     return (
