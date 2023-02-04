@@ -46,14 +46,25 @@ export const projects:projectInfo[] = [
         }
     },
     {
-        title: "PLU Programming Party Website",
-        date: "September 2022 (Currently Building)",
-        technologies: "Typsecript, HTML, CSS, React",
+        title: "PLU Programming Party Website(Currently Building)",
+        date: "September 2022",
+        technologies: "Typescript, HTML, CSS, React",
         quickBio: "Creating a website to showcase projects developed by students at Pacific Lutheran University.",
         img_link: "programmingpartyweb.png",
         link: "https://github.com/PLU-Programming-Party/website",
         info: {
             description1: "Currently I am working alongside other CS majors to build the official programming party(club) website. We want to display all the projects students have made in the past, and encourage others to join programming party!`"
+        }
+    },
+    {
+        title: "Star Wars App",
+        date: "May 2022",
+        technologies: "Typescript, HTML, CSS, React, Flask, postgreSQL, Docker, OpenAI API",
+        quickBio: "Star Wars Full Stack Application allowing users to generate an AI built image",
+        img_link: "starwarsapp.png",
+        link: "https://github.com/arcosea/StarWarsApp",
+        info: {
+            description1: "I worked alongside three CS majors to build a Star Wars version of DALL-E. I built out the frontend using React and created HTTP requests to our Flask backend and OpenAI API to generate images."
         }
     }
 ]
