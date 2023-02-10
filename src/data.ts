@@ -58,7 +58,7 @@ export const projects:projectInfo[] = [
     },
     {
         title: "Star Wars App",
-        date: "May 2022",
+        date: "December 2022",
         technologies: "Typescript, HTML, CSS, React, Flask, postgreSQL, Docker, OpenAI API",
         quickBio: "Star Wars Full Stack Application allowing users to generate an AI built image",
         img_link: "starwarsapp.png",
