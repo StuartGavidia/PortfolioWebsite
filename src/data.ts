@@ -7,7 +7,7 @@ export const projects:projectInfo[] = [
         technologies: "Javascript, CSS, HTML, React, Weather API, Netlify",
         quickBio: "A web application for chemistry students at PLU. Letting them hone the skills taught in second semester chemistry.",
         img_link:  "plulearn.png",
-        link: "https://plulearn.com",
+        link: "https://stuartgavidia.github.io/pluscience/",
         info: {
             description1: "At the time I was taking Chemistry. I utilized my skills in React to develop a user friendly web application for undergrad students taking Gen Chem. The app displayed the weather at PLU and had a dataset of almost 180 multiple choice questions across 8 units. The web app would tell the user whether they got the answer correct, and displayed links related to the question for extra help."
         }
@@ -43,17 +43,6 @@ export const projects:projectInfo[] = [
         link: "https://stuartgavidia.github.io/jammming/",
         info: {
             description1: "I enjoyed this project because it was my first time interacting with a Web API. I learned about how APIs can be used effectively to improve a web application. I learned about REST and authorization while building this React App."
-        }
-    },
-    {
-        title: "PLU Programming Party Website(Currently Building)",
-        date: "September 2022",
-        technologies: "Typescript, HTML, CSS, React",
-        quickBio: "Creating a website to showcase projects developed by students at Pacific Lutheran University.",
-        img_link: "programmingpartyweb.png",
-        link: "https://github.com/PLU-Programming-Party/website",
-        info: {
-            description1: "Currently I am working alongside other CS majors to build the official programming party(club) website. We want to display all the projects students have made in the past, and encourage others to join programming party!`"
         }
     },
     {
