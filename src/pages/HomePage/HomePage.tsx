@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './HomePage.css'
 import Project from '../../components/Project/Project'
 import Info from '../../components/Info/Info'
@@ -8,6 +8,15 @@ import { projects } from '../../data'
 import { Link } from 'react-router-dom'
 
 const HomePage = () => {
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+            const id = hash.substr(1);
+            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, [])
+
     return (
         <div className="home">
             <Info />

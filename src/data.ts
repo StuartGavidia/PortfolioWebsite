@@ -55,5 +55,17 @@ export const projects:projectInfo[] = [
         info: {
             description1: "I worked alongside three CS majors to build a Star Wars version of DALL-E. I built out the frontend using React and created HTTP requests to our Flask backend and OpenAI API to generate images."
         }
+    },
+    {
+        title: "Business Management App",
+        date: "August 2023",
+        technologies: "Typescript, HTML, CSS, React, Flask, Nginx, MySQL, Docker, Cypress, Pytest",
+        quickBio: "Business management app saving time for business owners",
+        img_link: "businessapp.png",
+        link: "",
+        info: {
+            description1: "If you would like to access a demo or link to codebase reach out through contact form",
+            description2: "I pursued a microservices architecture to prepare the app for easy deployment, scaling, and maintainability. The frontend is built using React and Typescript. Every unique feature such as Analytics, Calendar, Communication, Login/Registration, Payroll, and more, has a unique service built with custom technologies such as Flask, Express to support the feature. All connections and requests are managed by our API Gateway which is an Nginx server. We are using MySQL databases to persist data. Our testing frameworks include Cypress, and Pytest, which are set up with automated testing in our CI/CD pipeline set up with Github Actions. Finally, all of our components are dockerized in individual containers."
+        }
     }
 ]

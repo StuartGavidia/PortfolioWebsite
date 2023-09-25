@@ -18,6 +18,10 @@
     font-size: 1.5rem;
 }
 
+.currentproject-buttoncontainer {
+    cursor: pointer;
+}
+
 .currentproject-buttoncontainer h1 {
     padding-top: 0.5rem;
     height: 3rem;
